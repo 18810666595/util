@@ -3,3 +3,7 @@ function test() {
 }
 
 test();
+
+let hello = 'world';
+
+console.log(hello);

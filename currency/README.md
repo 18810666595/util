@@ -1,7 +1,7 @@
 ### 过滤器，格式化金额
 
 使用方法例子：
-```
+```js
 currency (value, currency, decimals)
 
 /**
@@ -11,12 +11,12 @@ currency (value, currency, decimals)
   第三个为小数位数，Number 类型，默认为 2 位小数
 ```
 ### .vue 文件中
-```
+```js
 //  <template> 文件
 
 {{ totalPrice | currency("$") }}  
 ```
-```
+```js
 // <script> 文件
 
 import {currency} from '**/util/currency.js'
@@ -32,7 +32,7 @@ export default {
   }
 }
 ```
-```
+```js
 //输出效果为
 
 $12,345.00
